@@ -8,7 +8,7 @@
   scroll-behavior: smooth;
 }
 :root{
-    --primary-color:#ff8882;
+    --primary-color:#82eeff;
     --black-color:#0E2431;
     --white-color:#fff;
 
@@ -211,6 +211,70 @@ section{
     margin-bottom: 10px;
   }
   .about-details .right p{
+    text-align: justify;
+    color:var(--black-color);
+  }
+/*Work section css */
+section{
+    padding-top:40px;
+  }
+  section .content{
+    width:80%;
+    margin:40px auto;
+    font-family: 'Poppins', sans-serif;
+  }
+  section .title{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  section .title span{
+    color:var(--black-color);
+    font-size: 30px;
+    font-weight: 600;
+    position:relative;
+    padding-bottom:8px;
+  }
+  section .title span::before,
+  section .title span::after{
+    content:'';
+    position:absolute;
+    height:3px;
+    width:100%;
+    background:var(--primary-color);
+    left:0;
+    bottom:0;
+  }
+  section .title span::after{
+    bottom:-7px;
+    width:70%;
+    left:50%;
+    transform:translateX(-50%);
+  }
+  .work .work-details{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  .work .work-details .left{
+    width:45%;
+  }
+  .work .left img{
+    height:400px;
+    width:400px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  .work .about-details .right{
+    width:55%;
+  }
+  section .topic{
+    color:var(--black-color);
+    font-size:25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .work-details .right p{
     text-align: justify;
     color:var(--black-color);
   }
