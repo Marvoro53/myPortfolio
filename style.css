@@ -17,10 +17,24 @@ body{
     font-family: 'Ubuntu', sans-serif;
   }
 /*images*/
-img{
+.image1{
     height: 500px;
-    width: 700px;
+    width: 500px;
     border-radius: 5px 5px 0 0;
+
+}
+
+.image2{
+  height: 500px;
+  width: 500px;
+  border-radius: 5px 5px 0 0;
+
+}
+
+.image3{
+  height: 500px;
+  width: 500px;
+  border-radius: 5px 5px 0 0;
 
 }
 /* side navigation Menu Button CSS */
